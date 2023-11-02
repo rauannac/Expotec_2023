@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://suap.ifrn.edu.br/media/edu/material_aula/EXPOTEC_2023_11-3f67b11b85f547539097bcf87c643856.png" type="image/x-icon">
+    <title>Formulário de Inscrição</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        form {
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inscrição</h1>
+    
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="instituicao">Instituição:</label>
+        <input type="text" id="instituicao" name="instituicao" required>
+
+        <input type="submit" value="Enviar Inscrição">
+    </form>
+</body>
+</html>
